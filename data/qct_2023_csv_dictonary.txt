@@ -1,0 +1,9 @@
+Variable Name	Variable Description
+cbsa		MSA (Metro CBSA) Code, set at 10,000 x State FIPS Code for nonmetro counties
+statefp		STATE FIPS code
+cnty		COUNTY FIPS Code
+stcnty		Combined STATE and COUNTY FIPS codes
+tract		TRACT code as number with specified decimal
+splittr		Indicates 2020 Census tract split by New England HMFA boundaries, 1 = split
+qct_id		UNIQUE IDENTIFIER: State, County, tract FIPS codes with 1 digit split indicator
+fips		State, County, tract FIPS codes for match with Census Data Sources
